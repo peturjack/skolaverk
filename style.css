@@ -1,0 +1,92 @@
+* {
+  font-family: Verdana;
+}
+body {
+  background-color: black;
+}
+
+header,footer {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+header {
+  height: 10vh;
+}
+
+header h2 {
+  position: absolute;
+ margin-top: 30px; 
+ left: 20%;
+}
+
+footer {
+  height: 15vh;
+  bottom: 0;
+}
+
+.nav-down {
+  position: absolute;
+  width: 100%;
+ 
+}
+
+.nav-down a {
+  font-size: 13px;
+  position: relative;
+  left: 82%;
+  top: 60px;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.nav a {
+  position: relative;
+  left: 5%;
+  top: 35px;
+  color: white;
+  text-decoration: none;
+  margin-right: 100px;
+
+}
+.button {
+  position: relative;
+  top: 25px;
+  left: 90%;
+  background-color:rgb(129, 6, 6);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color:rgba(129, 6, 6, 0.856);
+  transition: 0.25s;
+}
+
+.button:active {
+  background-color:rgba(129, 6, 6, 0.664);
+  transition: 0.25s;
+}
+
+.hello {
+margin-top: 325px;
+font-size: 30px;
+}
